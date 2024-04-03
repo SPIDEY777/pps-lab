@@ -1,3 +1,4 @@
+// Write a program to print all armstrong numbers between 1 to 100.
 #include <stdio.h> 
 #include <math.h>
 int isarmstrong(int n); 
@@ -19,6 +20,7 @@ int isarmstrong(int n) {
     c++;
 }
 
+
 for(int i =n;i !=0;i=i/10) {
     m = i%10;
     sum = sum+ pow(m,c);
@@ -29,3 +31,4 @@ return 1;
 else
 return 0;
 }
+// Kunal Sharma
