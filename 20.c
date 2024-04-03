@@ -1,3 +1,4 @@
+// Write a program to convert binary to decimal and vice versa
 # include <stdio.h>
 # include <math.h>
 long bintodec(long n);
@@ -49,3 +50,4 @@ while (n != 0) {
 
 return bin;
 }
+// Kunal Sharma
